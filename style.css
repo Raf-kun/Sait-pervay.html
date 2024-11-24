@@ -1,0 +1,22 @@
+.header_get{
+    background-color: antiquewhite;
+    height: 500px;
+
+}
+
+.h1_main{
+    text-align: center;
+}
+.p_main{
+    text-align: center;
+}
+
+.test{
+    text-align: center;
+    background-color: blue;
+}
+.test2{
+    text-align: center;
+    background-color: blue;
+    color: red
+}
