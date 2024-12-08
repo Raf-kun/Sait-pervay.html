@@ -40,12 +40,33 @@
     text-align: center;
 }
 
-.test{
-    text-align: center;
-    background-color: blue;
+.container2{
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
-.test2{
-    text-align: center;
-    background-color: blue;
-    color: red
+
+.container3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.my_photo{
+    height: 50px;
+    padding-left: 50px;
+}
+
+.my_photo2{
+    border: 1px solid gray;
+    height: 120px;
+    padding-left: 100px;
+}
+
+.mycar{
+    background-color: aqua;
+}
+
+.photo-block, .model{
+    border: 1px solid gray;
 }
