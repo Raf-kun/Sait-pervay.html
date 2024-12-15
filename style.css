@@ -1,10 +1,25 @@
 .header_get{
-    background-color: antiquewhite;
-    height: 500px;
+    /* background-color: antiquewhite; */
+    background-image: url(./images/welcome-banner.jpg);
+    height: 900px;
 
+
+
+    color: aliceblue;
+
+}
+
+.back{
+    height: 900px;
     padding-left: 300px;
     padding-right: 300px;
+    /* background-color: rgb(54, 54, 233); */
 
+}
+
+.Section4{
+    padding-left: 300px;
+    padding-right: 300px;
 }
 
 .images{
@@ -34,7 +49,10 @@
 }
 
 .h1_main{
+    margin-top: 200px;
     text-align: center;
+    font-size: 42px;
+    text-transform: uppercase;
 }
 .p_main{
     text-align: center;
@@ -52,6 +70,12 @@
     gap: 20px;
 }
 
+.container_with_cars{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+
+}
 .my_photo{
     height: 50px;
     padding-left: 50px;
@@ -64,7 +88,7 @@
 }
 
 .mycar{
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
 }
 
 .photo-block, .model{
